@@ -3,10 +3,10 @@ Gerenciador de Contatos.
 Projeto de gerenciamento de contatos feito em Java, com nome, telefone e email do usuario.
 
 ## Funcionalidades
-- Cadastro de contatos
-- Listagem de contatos
-- Edição de contatos
-- Exclusão de contatos
+- Cadastro de contatos 
+- Listagem de contatos 
+- Edição de contatos 
+- Exclusão de contatos 
 
 ## Instruções de Uso
 1. Clone o repositório para sua máquina local.

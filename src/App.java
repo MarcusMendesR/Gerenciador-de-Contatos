@@ -3,6 +3,11 @@ public class App {
         
         Contatos c = new Contatos("Marcus", "61998090870", "marcus@gmail.com");
         c.armazenarContato();
-        c.listaContatos();
+        c.listarContatos();
+        c.editarContato();
+        c.listarContatos();
+        c.removerContato();
+
+        
     }
 }
