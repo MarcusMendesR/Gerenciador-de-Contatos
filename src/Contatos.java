@@ -43,13 +43,14 @@ public class Contatos {
     }
 
     public String toString() {
-        return "Nome: " + nome + "\nTelefone: " + telefone + "\nEmail: " + email;
+        return " \nNome: " + nome + "\nTelefone: " + telefone + "\nEmail: " + email;
     }
 
-    public void armazenarContato() {
-        // Implementação do método para armazenar o contato
-        contatos.add(this);
-        System.out.println("Contato armazenado com sucesso!");
+    public void armazenarContato(String nome, String telefone, String email) {
+        Contatos contato = new Contatos(nome, telefone, email);
+        contatos.add(contato);
+        System.out.println("Contato cadastrado com sucesso!");
+
     }
 
     public void listarContatos() {
@@ -57,8 +58,9 @@ public class Contatos {
             System.out.println("Não há contatos cadastrados.");
             return;
         } else {
-           System.out.println("Lista de contatos:");
+            System.out.println("Lista de contatos:");
             for (int i = 0; i < contatos.size(); i++) {
+
                 System.out.println((i + 1) + " " + contatos);
                 i++;
             }
@@ -87,7 +89,7 @@ public class Contatos {
     }
 
     public void removerContato() {
-       System.out.println("Lista de contatos:");
+        System.out.println("Lista de contatos:");
         for (int i = 0; i < contatos.size(); i++) {
             System.out.println((i + 1) + " " + contatos);
             i++;
