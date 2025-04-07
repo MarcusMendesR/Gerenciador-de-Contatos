@@ -9,6 +9,9 @@ public class Contatos {
     List<Contatos> contatos = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
 
+    public Contatos() {
+    }
+
     public Contatos(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
@@ -54,6 +57,7 @@ public class Contatos {
             System.out.println("Não há contatos cadastrados.");
             return;
         } else {
+           System.out.println("Lista de contatos:");
             for (int i = 0; i < contatos.size(); i++) {
                 System.out.println((i + 1) + " " + contatos);
                 i++;
@@ -62,6 +66,7 @@ public class Contatos {
     }
 
     public void editarContato() {
+        System.out.println("Lista de contatos:");
         for (int i = 0; i < contatos.size(); i++) {
             System.out.println((i + 1) + " " + contatos);
             i++;
@@ -82,6 +87,7 @@ public class Contatos {
     }
 
     public void removerContato() {
+       System.out.println("Lista de contatos:");
         for (int i = 0; i < contatos.size(); i++) {
             System.out.println((i + 1) + " " + contatos);
             i++;
