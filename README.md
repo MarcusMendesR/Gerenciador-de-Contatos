@@ -14,3 +14,8 @@ Projeto de gerenciamento de contatos feito em Java, com nome, telefone e email d
 3. Execute a classe principal do projeto.
 4. Utilize as opções disponíveis no menu para gerenciar seus contatos.
 
+## Melhorias Futuras
+- Adicionar banco de dados para armazenar os contatos.
+- Adicionar interface gráfica para melhor experiência do usuário.
+
+
